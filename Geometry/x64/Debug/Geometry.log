@@ -1,0 +1,176 @@
+﻿  Matrix.cpp
+  Point.cpp
+F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(8,13): error C2084: function 'Geometry::Matrix::Matrix(void)' already has a body
+  Triangle.cpp
+      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(6,13):
+      see previous definition of 'Geometry::Matrix::Matrix'
+  
+F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(19,22): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Geometry::Matrix'
+      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(19,22):
+      'Geometry::Matrix::Matrix': function does not take 4 arguments
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(19,22):
+          while trying to match the argument list '(initializer list, initializer list, initializer list, initializer list)'
+  
+F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,22): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Geometry::Matrix'
+      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,22):
+      'Geometry::Matrix::Matrix': no overloaded function could convert all the argument types
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          could be 'Geometry::Matrix::Matrix(Geometry::Matrix &&)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,22):
+              'Geometry::Matrix::Matrix(Geometry::Matrix &&)': cannot convert argument 1 from 'initializer list' to 'Geometry::Matrix &&'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,24):
+                  Reason: cannot convert from 'initializer list' to 'Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          or       'Geometry::Matrix::Matrix(const Geometry::Matrix &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,22):
+              'Geometry::Matrix::Matrix(const Geometry::Matrix &)': cannot convert argument 1 from 'initializer list' to 'const Geometry::Matrix &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,24):
+                  Reason: cannot convert from 'initializer list' to 'const Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(13,13):
+          or       'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,22):
+              'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)': cannot convert argument 1 from 'initializer list' to 'const std::array<std::array<float,4>,4> &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,24):
+                  Reason: cannot convert from 'initializer list' to 'const std::array<std::array<float,4>,4>'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,24):
+                  Invalid aggregate initialization
+                      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,24):
+                      too many initializers
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(28,22):
+          while trying to match the argument list '(initializer list)'
+  
+F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,22): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Geometry::Matrix'
+      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,22):
+      'Geometry::Matrix::Matrix': no overloaded function could convert all the argument types
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          could be 'Geometry::Matrix::Matrix(Geometry::Matrix &&)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,22):
+              'Geometry::Matrix::Matrix(Geometry::Matrix &&)': cannot convert argument 1 from 'initializer list' to 'Geometry::Matrix &&'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,24):
+                  Reason: cannot convert from 'initializer list' to 'Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          or       'Geometry::Matrix::Matrix(const Geometry::Matrix &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,22):
+              'Geometry::Matrix::Matrix(const Geometry::Matrix &)': cannot convert argument 1 from 'initializer list' to 'const Geometry::Matrix &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,24):
+                  Reason: cannot convert from 'initializer list' to 'const Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(13,13):
+          or       'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,22):
+              'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)': cannot convert argument 1 from 'initializer list' to 'const std::array<std::array<float,4>,4> &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,24):
+                  Reason: cannot convert from 'initializer list' to 'const std::array<std::array<float,4>,4>'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,24):
+                  Invalid aggregate initialization
+                      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,24):
+                      too many initializers
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(37,22):
+          while trying to match the argument list '(initializer list)'
+  
+F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,22): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Geometry::Matrix'
+      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,22):
+      'Geometry::Matrix::Matrix': no overloaded function could convert all the argument types
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          could be 'Geometry::Matrix::Matrix(Geometry::Matrix &&)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,22):
+              'Geometry::Matrix::Matrix(Geometry::Matrix &&)': cannot convert argument 1 from 'initializer list' to 'Geometry::Matrix &&'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,24):
+                  Reason: cannot convert from 'initializer list' to 'Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          or       'Geometry::Matrix::Matrix(const Geometry::Matrix &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,22):
+              'Geometry::Matrix::Matrix(const Geometry::Matrix &)': cannot convert argument 1 from 'initializer list' to 'const Geometry::Matrix &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,24):
+                  Reason: cannot convert from 'initializer list' to 'const Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(13,13):
+          or       'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,22):
+              'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)': cannot convert argument 1 from 'initializer list' to 'const std::array<std::array<float,4>,4> &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,24):
+                  Reason: cannot convert from 'initializer list' to 'const std::array<std::array<float,4>,4>'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,24):
+                  Invalid aggregate initialization
+                      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,24):
+                      too many initializers
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(48,22):
+          while trying to match the argument list '(initializer list)'
+  
+F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,22): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Geometry::Matrix'
+      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,22):
+      'Geometry::Matrix::Matrix': no overloaded function could convert all the argument types
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          could be 'Geometry::Matrix::Matrix(Geometry::Matrix &&)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,22):
+              'Geometry::Matrix::Matrix(Geometry::Matrix &&)': cannot convert argument 1 from 'initializer list' to 'Geometry::Matrix &&'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,24):
+                  Reason: cannot convert from 'initializer list' to 'Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          or       'Geometry::Matrix::Matrix(const Geometry::Matrix &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,22):
+              'Geometry::Matrix::Matrix(const Geometry::Matrix &)': cannot convert argument 1 from 'initializer list' to 'const Geometry::Matrix &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,24):
+                  Reason: cannot convert from 'initializer list' to 'const Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(13,13):
+          or       'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,22):
+              'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)': cannot convert argument 1 from 'initializer list' to 'const std::array<std::array<float,4>,4> &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,24):
+                  Reason: cannot convert from 'initializer list' to 'const std::array<std::array<float,4>,4>'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,24):
+                  Invalid aggregate initialization
+                      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,24):
+                      too many initializers
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(59,22):
+          while trying to match the argument list '(initializer list)'
+  
+F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,22): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Geometry::Matrix'
+      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,22):
+      'Geometry::Matrix::Matrix': no overloaded function could convert all the argument types
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          could be 'Geometry::Matrix::Matrix(Geometry::Matrix &&)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,22):
+              'Geometry::Matrix::Matrix(Geometry::Matrix &&)': cannot convert argument 1 from 'initializer list' to 'Geometry::Matrix &&'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,24):
+                  Reason: cannot convert from 'initializer list' to 'Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\headers\Matrix.h(26,5):
+          or       'Geometry::Matrix::Matrix(const Geometry::Matrix &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,22):
+              'Geometry::Matrix::Matrix(const Geometry::Matrix &)': cannot convert argument 1 from 'initializer list' to 'const Geometry::Matrix &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,24):
+                  Reason: cannot convert from 'initializer list' to 'const Geometry::Matrix'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,24):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(13,13):
+          or       'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)'
+              F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,22):
+              'Geometry::Matrix::Matrix(const std::array<std::array<float,4>,4> &)': cannot convert argument 1 from 'initializer list' to 'const std::array<std::array<float,4>,4> &'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,24):
+                  Reason: cannot convert from 'initializer list' to 'const std::array<std::array<float,4>,4>'
+                  F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,24):
+                  Invalid aggregate initialization
+                      F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,24):
+                      too many initializers
+          F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(70,22):
+          while trying to match the argument list '(initializer list)'
+  
+F:\AbhishekSuryawanshiWorkspace\Visualizer\Geometry\src\Matrix.cpp(79,16): error C2264: 'Geometry::Matrix::Matrix': error in function definition or declaration; function not called
+  Triangulation.cpp
+  Generating Code...
